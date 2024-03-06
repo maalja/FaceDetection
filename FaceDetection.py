@@ -1,12 +1,12 @@
 import cv2
 import sys
 
-cascPath = "C:/Users/mahrh/PycharmProjects/pythonProject/ObjectDetection/haarcascade_frontalface_default.xml"
+cascPath = "haarcascade_frontalface_default.xml"
 # Create the haar cascade
 faceCascade = cv2.CascadeClassifier(cascPath)
 
 # Read the image
-image = cv2.imread("C:/Users/mahrh/PycharmProjects/pythonProject/ObjectDetection/image.png")
+image = cv2.imread("image.png")
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Detect faces in the image
