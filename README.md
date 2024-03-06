@@ -1,5 +1,5 @@
 # FaceDetection
-a face can be detected on any image with a trained cascade model
+With a trained cascade model, a face can be recognized in each image
 
 Install the requirments with: `pip install -r requirements.txt`
 
